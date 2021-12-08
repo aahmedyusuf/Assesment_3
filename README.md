@@ -1,7 +1,7 @@
 # Assesment_3
 
-Input
-```
+Input java
+```java
 public class className {
     int value1 = 1 ;
     boolean value2 = true ;
