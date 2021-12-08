@@ -1,6 +1,6 @@
 # Assesment_3
 
-Input java
+Input
 ```java
 public class className {
     int value1 = 1 ;
@@ -20,7 +20,7 @@ public class className {
 }
 ```
 output:
-```
+```java
 public class className { 
  > Keyword is public token # is 2
  > Class is constructed correctly
