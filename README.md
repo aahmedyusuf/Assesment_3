@@ -1,6 +1,7 @@
 # Assesment_3
 
 Input
+```
 public class className {
     int value1 = 1 ;
     boolean value2 = true ;
@@ -17,8 +18,9 @@ public class className {
     someClass.value = 2 ;
     value1 = someClass.SomeFunction2 ( ) ;
 }
-
+```
 output:
+```
 public class className { 
  > Keyword is public token # is 2
  > Class is constructed correctly
@@ -43,3 +45,4 @@ someClass.value = 2 ;
  > Class Dereferencing is constructed correctly
 value1 = someClass.SomeFunction2 ( ) ; 
  > Class Dereferencing is constructed correctly
+ ```
