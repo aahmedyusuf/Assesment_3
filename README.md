@@ -46,3 +46,5 @@ someClass.value = 2 ;
 value1 = someClass.SomeFunction2 ( ) ; 
  > Class Dereferencing is constructed correctly
  ```
+Picture:
+https://github.com/aahmedyusuf/Assesment_3/blob/main/Screen%20Shot%202021-12-08%20at%206.14.50%20PM.png
