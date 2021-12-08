@@ -64,6 +64,7 @@ public class question1{
         keywords.put("float",7);
         keywords.put("boolean",8);
         keywords.put("int",9);
+        keywords.put("if",10);
 
     }
 
@@ -162,6 +163,9 @@ public class question1{
             int n = arr.size()-1;
             if(keywords.containsKey(arr.get(0)) && keywords.containsKey(arr.get(1)) && !arr.get(1).equals("class")){
                 printArray(arr);
+                PrintKeyword(arr.get(0));
+                PrintKeyword(arr.get(1));
+
                 if(arr.contains("(") && arr.contains(")") && arr.contains("{")){
                     print(" > this method is constructed correctly");
                 }else{
@@ -180,6 +184,7 @@ public class question1{
                 
                 printArray(arr);
                 int n = arr.size()-1;
+
                 if(arr.get(3).equals("(") && arr.get(n-1).equals(")") && arr.get(n).equals(";")){
                     print(" > Class Dereferencing is constructed correctly");
                 }else{
