@@ -1,0 +1,16 @@
+public class className {
+    int value1 = 1 ;
+    boolean value2 = true ;
+    float value3 = 2.3 ;
+    if ( value1 == 1) {
+        value1 = 2 ;
+    }
+    public void SomeFunction1 ( ) {
+        value1 = 5;
+    }
+    public int SomeFunction2 ( ) {
+        return 2 ;
+    }
+    someClass.value = 2 ;
+    value1 = someClass.SomeFunction2 ( ) ;
+}
