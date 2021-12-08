@@ -34,7 +34,7 @@ float value3 = 2.3 ;
  > Keyword is float token # is 7
  > float is decalared correctly
 if ( value1 == 1) { 
- > Keyword is if token # is null
+ > Keyword is if token # is 10
 [if, (, value1, ==, 1), {]
  > if is not constructed correctly
 public void SomeFunction1 ( ) { 
