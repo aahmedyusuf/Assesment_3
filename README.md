@@ -38,8 +38,12 @@ if ( value1 == 1) {
 [if, (, value1, ==, 1), {]
  > if is not constructed correctly
 public void SomeFunction1 ( ) { 
+ > Keyword is public token # is 2
+ > Keyword is void token # is 4
  > this method is constructed correctly
 public int SomeFunction2 ( ) { 
+ > Keyword is public token # is 2
+ > Keyword is int token # is 9
  > this method is constructed correctly
 someClass.value = 2 ; 
  > Class Dereferencing is constructed correctly
